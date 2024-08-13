@@ -1,4 +1,5 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "ReformatSlideNumberBold"
+' Looks for "Slide" followed by a number then updates the word and number to bold while removing the bold from any period that follows.
 Sub BoldSlideNumberInTables()
     Dim tbl As Table
     Dim row As row
