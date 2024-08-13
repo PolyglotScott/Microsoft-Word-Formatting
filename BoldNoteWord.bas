@@ -1,4 +1,5 @@
-Attribute VB_Name = "Module3"
+Attribute VB_Name = "ReformatNoteBold"
+' Loops through the document to find all occurances of "Note:" and updates the word to bold if found.
 Sub BoldNoteWord()
     Dim doc As Document
     Dim rng As Range
