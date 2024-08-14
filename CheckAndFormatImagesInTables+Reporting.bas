@@ -1,4 +1,5 @@
-Attribute VB_Name = "CheckAndFormatImagesInTables"
+Attribute VB_Name = "FormatImagesInTables"
+' Find images that are not icons under 0.65cm in width and updates their width to 4.02cm then left aligns them.
 Sub CheckAndFormatImagesInTables()
     Dim tbl As Table
     Dim cell As cell
