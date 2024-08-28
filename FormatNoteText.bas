@@ -1,4 +1,5 @@
 Attribute VB_Name = "FormatNoteTextStyle"
+'Finds Notes and reformats them in the New Zealand Style Segoe UI Light.
 Sub FormatNoteText()
     Dim rng As Range
     Dim para As Paragraph
